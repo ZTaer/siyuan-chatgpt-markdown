@@ -1,0 +1,12 @@
+{
+  "name": "siyuan-chatgpt-markdown",
+  "author": "siyuan-chatgpt-markdown",
+  "version": "0.3.0",
+  "minAppVersion": "3.8.12",
+  "backends": ["all"],
+  "frontends": ["desktop", "desktop-window", "browser-desktop"],
+  "displayName": {"default": "ChatGPT Markdown Paste", "zh_CN": "ChatGPT 回答粘贴", "zh-CN": "ChatGPT 回答粘贴"},
+  "description": {"default": "Paste Markdown answers, SVG images and editable Mermaid diagrams into SiYuan.", "zh_CN": "将回答中的 Markdown、SVG 和 Mermaid 粘贴为思源笔记内容。", "zh-CN": "将回答中的 Markdown、SVG 和 Mermaid 粘贴为思源笔记内容。"},
+  "readme": {"default": "README.md"},
+  "keywords": ["ChatGPT", "Markdown", "SVG", "Mermaid"]
+}

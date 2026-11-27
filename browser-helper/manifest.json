@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "复制 ChatGPT 图文到思源",
+  "version": "1.1.0",
+  "description": "使用 ChatGPT 回答下方的复制按钮时，同时复制当前回答中完整的 Mermaid 图。",
+  "permissions": ["activeTab", "scripting", "clipboardWrite"],
+  "background": {"service_worker": "background.js"},
+  "content_scripts": [{
+    "matches": ["https://chatgpt.com/*", "https://chat.openai.com/*"],
+    "js": ["answer.js", "copy-button.js"],
+    "run_at": "document_start"
+  }],
+  "action": {"default_title": "复制选中文字所属的回答，或最后一条回答"}
+}
